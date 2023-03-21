@@ -59,7 +59,7 @@ def add(request):
 
 # There are several advantages to using the forms module rather than manually writing an HTML form:
 
-# If we want to add new fields to the form, we can simply add them in views.py without typing additional HTML.
-# Django automatically performs client-side validation, or validation local to the user’s machine. meaning it will not allow a user to submit their form if it is incomplete.
-# Django provides simple server-side validation, or validation that occurs once form data has reached the server.
-# we’ll begin using models to store information, and Django makes it very simple to create a form based on a model.
+# * If we want to add new fields to the form, we can simply add them in views.py without typing additional HTML.
+# * Django automatically performs client-side validation, or validation local to the user’s machine. meaning it will not allow a user to submit their form if it is incomplete.
+# * Django provides simple server-side validation, or validation that occurs once form data has reached the server.
+# * we’ll begin using models to store information, and Django makes it very simple to create a form based on a model.
